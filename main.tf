@@ -18,7 +18,7 @@ resource "aws_instance" "test" {
 #     values = ["Windows_Server-2019-English-Full-Base-*"]
 #   }
     tags = {
-    Name = "test_instance_from_terraform_via jenkins"
+    Name = "test_instance_from_terraform_via_jenkins"
   }
 }
 
