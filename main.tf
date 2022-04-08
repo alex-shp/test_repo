@@ -23,7 +23,7 @@ resource "aws_instance" "test" {
 #     device_name = "sdh"
 #     volume_size = var.ad_disk_size
 #   }
-# }
+}
 
 # data "aws_ami" "latest_windows_2019" {
 #   owners      = ["amazon"]
