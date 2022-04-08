@@ -23,7 +23,7 @@ resource "aws_instance" "test" {
 }
 
 data "aws_ami" "latest_linux_amzn" {
-  owners      = ["137112412989"]
+  owners      = ["amazon"]
   most_recent = true
   filter {
     name   = "name"
