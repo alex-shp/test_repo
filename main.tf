@@ -17,7 +17,7 @@ resource "aws_instance" "test" {
 #     name   = "name"
 #     values = ["Windows_Server-2019-English-Full-Base-*"]
 #   }
-# }
+}
 
 data "aws_ami" "latest_linux_amzn" {
   owners      = ["137112412989"]
