@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Uload the file from Jen to S3') {
+            steps {
+                s3Upload bucket: 'test45890', file:'test'
+            }
+        }
+    }
+}
