@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Uload the file from Jen to S3') {
             steps {
-                s3Upload bucket: 'test45890', file:'test1', workingDir: '/home/ec2-user/' 
+                s3Upload bucket: 'test45890', file:'test1', workingDir: '/home/ec2-user/', path:''
             }
         }
     }
